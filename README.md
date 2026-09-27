@@ -8,6 +8,6 @@ An independent, AI-assisted English study companion for Stanford CS336 Assignmen
 
 **Primary source:** [stanford-cs336/assignment1-basics at commit a158843](https://github.com/stanford-cs336/assignment1-basics/tree/a158843b20107949f1a8d7df1b05cd33b9166712). The bundled PDF is provided for reference under the source repository's MIT notice, reproduced in [`licenses/stanford-assignment-mit.txt`](licenses/stanford-assignment-mit.txt). Consult the official repository for authoritative and updated instructions.
 
-**Third-party assets:** Bundled KaTeX JavaScript, CSS, and fonts are under the [KaTeX MIT license](licenses/katex-mit.txt). The guide's diagrams are original SVGs.
+**Third-party assets:** Bundled KaTeX JavaScript, CSS, and fonts are under the [KaTeX MIT license](licenses/katex-mit.txt). The guide's diagrams are original SVGs. The locally bundled Stanford Main Quad cover photograph is by Michael Connor, licensed under [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/); see [visual credits](about.html#visual-credits). The four data-path cards, seven chapter headings, and selected lesson explanations share nine original visual illustrations. Example IDs, merge sequences, and curves are schematic rather than assignment results.
 
 The site is static and works offline after download. It stores lesson progress in browser local storage. It has no analytics or account system. See [about.html](about.html) for full disclosure.

@@ -1,0 +1,11 @@
+Stanford Main Quad cover photograph
+Author: Michael Connor
+Source: https://commons.wikimedia.org/wiki/File:Stanfordquad.jpg
+Original file: https://upload.wikimedia.org/wikipedia/commons/7/7a/Stanfordquad.jpg
+License: Creative Commons Attribution 2.5 Generic
+License link: https://creativecommons.org/licenses/by/2.5/
+Bundled original file unchanged. CSS scales and crops its display at narrow widths.
+No photographer or Stanford endorsement is implied.
+
+All SVG visuals in assets/visuals/ are original educational illustrations for this companion.
+Examples and curves are schematic, not assignment results.
