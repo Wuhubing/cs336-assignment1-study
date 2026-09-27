@@ -1,5 +1,7 @@
 # CS336 Assignment 1 · Guided Study
 
+[Open the guided study site](https://wuhubing.github.io/cs336-assignment1-study/)
+
 An independent, AI-assisted English study companion for Stanford CS336 Assignment 1 (Spring 2026, handout v26.0.3). The first screen summarizes the required work; 31 guided lessons explain concepts and equations, with diagrams, a contents sidebar, and local progress tracking.
 
 **Unofficial:** This site is not affiliated with or endorsed by Stanford University or course staff. It does not provide assignment solutions. Students must independently write and submit their own code, experiments, and written answers, in accordance with the [CS336 course policy](https://cs336.stanford.edu/) and official handout.
