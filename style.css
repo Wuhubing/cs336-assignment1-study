@@ -10,7 +10,7 @@
 .lesson-shell{max-width:1190px}
 .study-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:48px;align-items:start}
 .study-layout .lesson{max-width:760px;width:100%;margin:0}
-.desktop-directory{position:sticky;top:18px;align-self:start;max-height:calc(100vh - 36px);overflow-y:auto;padding:0 16px 18px 0;border-right:1px solid var(--line);scrollbar-width:thin}
+.desktop-directory{align-self:start;padding:0 16px 18px 0;border-right:1px solid var(--line)}
 .mobile-directory{display:none}
 .directory-heading{font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
 .directory-position{margin:4px 0 12px;color:var(--muted);font-size:.74rem}
@@ -20,5 +20,5 @@
 .toc-chapter ol{list-style:none;padding:0;margin:0 0 0 6px;border-left:1px solid var(--line)}
 .toc-chapter li{margin:0}.toc-lesson{display:grid;grid-template-columns:23px minmax(0,1fr) 13px;gap:5px;align-items:start;margin-left:-1px;padding:5px 4px 5px 10px;border-left:2px solid transparent;color:#5e5b57;font-size:.71rem;line-height:1.35;text-decoration:none;border-radius:0 4px 4px 0;min-height:33px}.toc-lesson:hover{color:var(--red);background:#faf7f3;text-decoration:none}.toc-lesson.current{border-left-color:var(--red);background:#f7efed;color:var(--red);font-weight:750}.toc-index{color:#9b9690;font-variant-numeric:tabular-nums}.toc-lesson.current .toc-index{color:var(--red)}.toc-name{overflow-wrap:anywhere}.toc-check{color:var(--green);font-weight:900}
 #equations{scroll-margin-top:20px}
-@media(max-width:900px){.lesson-shell{max-width:800px}.study-layout{display:block}.study-layout .lesson{margin:auto}.desktop-directory{display:none}.mobile-directory{display:block;border:1px solid var(--line);border-radius:7px;margin:0 0 26px;background:var(--tint)}.mobile-directory summary{cursor:pointer;padding:11px 14px;color:var(--red);font-size:.79rem;font-weight:750}.mobile-directory-content{padding:0 14px 14px;max-height:360px;overflow:auto}.mobile-directory .toc-lesson{font-size:.76rem;min-height:39px}}
+@media(max-width:760px){.lesson-shell{max-width:800px}.study-layout{display:block}.study-layout .lesson{margin:auto}.desktop-directory{display:none}.mobile-directory{display:block;border:1px solid var(--line);border-radius:7px;margin:0 0 26px;background:var(--tint)}.mobile-directory summary{cursor:pointer;padding:11px 14px;color:var(--red);font-size:.79rem;font-weight:750}.mobile-directory-content{padding:0 14px 14px}.mobile-directory .toc-lesson{font-size:.76rem;min-height:39px}}
 @media print{.desktop-directory,.mobile-directory{display:none}.study-layout{display:block}.study-layout .lesson{max-width:none}}
