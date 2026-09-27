@@ -437,3 +437,17 @@
 .lesson-section .widget .audit-count{font-size:.8rem;font-weight:700;color:var(--green);margin-top:8px}
 @media(max-width:720px){.clip-layout{grid-template-columns:1fr}.gd-row{grid-template-columns:60px minmax(0,1fr) 90px}}
 .widget .w-btn{font-size:.78rem;line-height:1.2}
+
+/* Hero v3: text left, CS336 artwork right */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:12px 36px;align-items:center;margin-bottom:8px}
+.hero-text{min-width:0}
+.overview h1.hero-title{margin:12px 0 4px}
+.hero .hero-name{font-size:clamp(2.1rem,3.6vw,3.2rem);gap:4px;padding:2px 0 6px 20px;line-height:1.02}
+.hero .hero-tagline{margin:22px 0 18px}
+.hero .lede{font-size:1rem;margin-bottom:22px}
+.hero-art{margin:0}
+.hero-art img{display:block;width:100%;height:auto}
+@media(max-width:900px){
+ .hero{grid-template-columns:1fr}
+ .hero-art{order:-1;max-width:520px}
+}
