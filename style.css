@@ -24,3 +24,11 @@
 @media print{.desktop-directory,.mobile-directory{display:none}.study-layout{display:block}.study-layout .lesson{max-width:none}}
 .source-links,.footer-links{display:flex;flex-wrap:wrap;gap:10px 22px}.source-links{font-size:.88rem;font-weight:700}.footer-links{justify-content:flex-end}
 @media(max-width:720px){.footer-links{justify-content:flex-start}}
+/* Lesson-specific implementation tasks and progressive hints */
+.build-section{border:1px solid var(--line);border-radius:8px;padding:22px 23px 24px;margin-top:34px;background:#fff}
+.build-section h2{margin-bottom:5px}.build-scope{font-size:.72rem!important;font-weight:800;color:var(--red)!important;letter-spacing:.04em;margin:0 0 13px!important}
+.build-list{margin:0 0 17px;padding-left:20px;color:#4b4845;font-size:.86rem}.build-list li{margin:7px 0}
+.hint-flow{border-top:1px solid var(--line);padding-top:16px}.hint-button{border:1px solid #c8b6b3;border-radius:5px;background:white;color:var(--red);padding:7px 12px;font-size:.77rem;font-weight:750;text-align:left}.hint-button:hover{background:#fbf4f2}
+.hint-panel{margin-top:13px;padding:14px 16px;background:var(--tint);border-left:3px solid var(--red)}.hint-panel[hidden]{display:none}.hint-panel p{margin:0 0 12px!important;font-size:.83rem!important}.hint-panel .hint-button{background:#fff}.pseudo-panel{background:#fff;border:1px solid var(--line);border-left:3px solid var(--red);padding:14px 16px}
+.pseudo-panel pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:#383532;font:600 .78rem/1.8 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.pseudo-panel code{font:inherit}.hint-panel .hint-note{margin:11px 0 0!important;color:var(--muted);font-size:.72rem!important}
+@media(max-width:720px){.build-section{padding:18px 17px}}
