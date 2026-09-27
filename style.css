@@ -22,3 +22,5 @@
 #equations{scroll-margin-top:20px}
 @media(max-width:760px){.lesson-shell{max-width:800px}.study-layout{display:block}.study-layout .lesson{margin:auto}.desktop-directory{display:none}.mobile-directory{display:block;border:1px solid var(--line);border-radius:7px;margin:0 0 26px;background:var(--tint)}.mobile-directory summary{cursor:pointer;padding:11px 14px;color:var(--red);font-size:.79rem;font-weight:750}.mobile-directory-content{padding:0 14px 14px}.mobile-directory .toc-lesson{font-size:.76rem;min-height:39px}}
 @media print{.desktop-directory,.mobile-directory{display:none}.study-layout{display:block}.study-layout .lesson{max-width:none}}
+.source-links,.footer-links{display:flex;flex-wrap:wrap;gap:10px 22px}.source-links{font-size:.88rem;font-weight:700}.footer-links{justify-content:flex-end}
+@media(max-width:720px){.footer-links{justify-content:flex-start}}
