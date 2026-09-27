@@ -9,3 +9,13 @@ No photographer or Stanford endorsement is implied.
 
 All SVG visuals in assets/visuals/ are original educational illustrations for this companion.
 Examples and curves are schematic, not assignment results.
+
+Third-party diagrams in assets/images/cc/
+- dvgodoy-masked-self-attention.png
+  Author: Daniel Voigt Godoy, "Deep Learning Visuals" (dl-visuals)
+  Source: https://github.com/dvgodoy/dl-visuals/blob/main/Attention/decoder_self.png
+  License: Creative Commons Attribution 4.0 International — https://creativecommons.org/licenses/by/4.0/
+  Bundled unchanged. Credit is also shown under the figure in the lesson.
+
+Diagrams in assets/diagrams/ (including assets/diagrams/inline/) and the interactive widgets in widgets.js are original to this companion.
+External "See it explained elsewhere" cards only link to outside pages; no images from them are copied.
